@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning JavaScript</title>
+        <script>
+            document.write("<h1><center>Break and Continue</center></h1>");
+
+            document.write("<h3>Break</h3>");
+            for(x=0;x<10;x++){
+				if(x == 5){
+					break;
+				}
+				document.write(x+'This is the For Loop!<br>');
+			}
+			document.write("<h3>Continue</h3>");
+			for(y=0;y<10;y++){
+				if(y == 5){
+					document.write('<p style="color:red;">This is important</p>');
+					continue;
+				}
+				document.write(y+'This is the Y For Loop!<br>');
+			}
+        </script>
+    </head>
+</html>
